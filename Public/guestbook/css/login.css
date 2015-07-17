@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin:0px;
+	padding:0px;	
+}
+
+
+/*-- 登录start --*/
+#login_bo #beijing {
+	background: none repeat scroll 0 0 #000000;
+    height: 1000px;
+    left: 0;
+    opacity: 0.5;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 997;	
+}
+
+#login_bo #l_bo {
+	background:#FAFAFA;
+    left: 50%;
+	width:270px;
+	height:250px;
+    margin: 125px 0 0 -135px;
+    position: absolute;
+    top: 100px;
+    z-index: 998;	
+}
+
+#login_bo #l_bo .top {
+	width:270px;
+	height:48px;
+	background:url("../img/bg_log_ztop.png") no-repeat scroll 0 0 transparent;	
+}
+
+#login_bo #l_bo .top h3 {
+    color: #3B8FE0;
+    font: bold 16px/48px 微软雅黑;
+    letter-spacing: 2px;
+    text-indent: 26px;
+}
+
+#login_bo #l_bo .top .close {
+    background: url("../img/sp.png") repeat scroll -349px 0 transparent;
+    display: block;
+    height: 15px;
+    position: absolute;
+    right: 20px;
+    text-indent: -999em;
+    top: 15px;
+    width: 16px;
+}
+
+#login_bo #l_bo .con input {
+	color:#999;
+}
+
+#login_bo #l_bo .con .in {
+	text-align:center;
+	height:140px;
+}
+
+#login_bo #l_bo .con .in input {
+	margin-top:30px;
+	width:200px;
+	height:22px;
+	border:1px solid #999;	
+}
+
+#login_bo #l_bo .con .sub_con {
+    font-size:12px;
+	color:#999;
+	text-align:center	
+}
+
+#login_bo #l_bo .con .sub_con a {
+	text-decoration:underline;
+	color:#06F;	
+}
+
+#login_bo #l_bo .con .sub_con #sub {
+	width:80px;
+	height:31px;
+	border:0;
+	text-align:center;
+	background:url("../img/sp1.png") no-repeat scroll -148px 0  transparent;	
+}
+
+/*-- 登录end --*/

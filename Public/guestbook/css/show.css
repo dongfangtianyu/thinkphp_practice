@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document for show.php */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #000000;
+	background:#fff;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    color:#333;;
+}
+h1 {
+    color: #3399FF;
+    font-size: 56px;
+    font-weight: 600;
+    text-align: center;
+}
+h6 {
+    float: left;
+    font-size: 18px;
+    padding: 6px 0 0;
+    text-align: center;
+    width: 798px;
+}
+#logo {
+    float: right;
+    margin-right: 5px;
+    margin-top: -30px;
+}
+#wrap {
+    background: url("../img/bg_2.jpg") repeat scroll 0 0 transparent;
+    height: 1370px;
+    margin: 0 auto;
+    width:900px;
+}
+
+#wrap .ck {
+	position:relative;
+	top:630px;
+	left:40px;	
+}
+
+#page {
+    float: left;
+    font-size:14px;
+    height: 20px;
+    text-align: center;
+    width: 800px;
+	position:relative;
+	top:60px;
+}
+
+#footer {
+    height: 20px;
+    position: absolute;
+    left:36%;
+    left:35% !important;   
+    top: 1330px;
+    width: 600px;
+}
+.want_m {
+    float: right;
+    font-size: 15px;
+    font-weight: 100;
+    margin-right: 10px;
+}
+
+#ajax_con {	
+	float:left;
+    margin-top:15px;
+}
+
+#ajax_con .the_load {
+    position:relative;
+    top:250px;
+    left:-480px;
+}
+
+.message {
+    background: none repeat scroll 0 0 #FBF9FA;
+    border: 1px solid #D4D0C8;
+    float: left;
+    padding: 2px;
+    width: 794px;
+}
+.user_con {
+    float: left;
+    font-size: 12px;
+    height: 210px;
+    margin: 2px 0 0;
+    overflow: hidden;
+    padding: 10px 0;
+    text-align: center;
+    width: 100px;
+}
+.user_con table {
+    width: 100px;
+}
+.message_con {
+    border-left: 1px solid #A9B3D7;
+    float: left;
+    margin: 2px 0 0 2px;
+    overflow: hidden;
+    width: 688px;
+}
+.title {
+    border-bottom: 1px solid #A9B3D7;
+    color: #7A7A7A;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    width: 788px;
+    font-size:14px;
+}
+.content {
+    border-bottom: 1px solid #A9B3D7;
+    color: #000000;
+    font-size: 12px;
+    height: 181px;
+    line-height: 20px;
+    padding: 10px 10px 0;
+    text-indent: 40px;
+    vertical-align: top;
+    width: 758px;
+}
+
+/*-----------------底部功能栏开始--------------------*/
+.date, .del, .good_comment, .bad_comment {
+    color: #383433;
+    font-size: 12px;
+}
+.time {
+    height: 24px;
+    width: 788px;
+}
+.date {
+    float: left;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.del {
+    float: right;
+    margin-right: 10px;
+}
+
+/*-----送鲜花，扔鸡蛋开始-------*/
+.good_comment {
+    float: left;
+    margin-left: 60px;
+}
+.bad_comment {
+    float: left;
+    margin-left: 20px;
+}
+
+/*-----送鲜花，扔鸡蛋结束-------*/
+
+/*-----------------底部功能栏结束--------------------*/
