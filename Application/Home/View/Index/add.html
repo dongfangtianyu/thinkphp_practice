@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0034)http://thinkphp.myblog.me/show.php -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="/Public/guestbook/css/show.css">
+
+    <title>web_star留言板 for thinkphp</title>
+
+</head>
+<body>
+<div id="wrap">
+    <!-- 登录注册start -->
+    <link type="text/css" rel="stylesheet" href="/Public/guestbook/css/login_link.css">
+    <div id="login">
+        <div class="lo">
+            <strong><a href="javascript:show_log()">登陆</a>&nbsp;|&nbsp;<a href="http://thinkphp.myblog.me/register.php">注册</a></strong>      </div>
+    </div>      <!-- 登录注册连接end -->
+    <!-- 登录框start -->
+    <link type="text/css" rel="stylesheet" href="/Public/guestbook/css/login.css">
+
+    <div id="login_bo" style="display:none;">
+        <div id="beijing"></div>
+        <div id="l_bo">
+            <div class="top">
+                <h3>用户登录</h3>
+                <a title="关闭" href="javascript:close_log();" class="close" id="closeLoginBoxBtn">关闭</a>
+            </div>
+            <form action="http://thinkphp.myblog.me/login_do.php" method="post" name="form1" onsubmit="return check_login(this);">
+                <div class="con">
+                    <div class="in">
+                        <input type="text" name="username" value="账号" onfocus="onf_text(this,&#39;账号&#39;)" onblur="onb_text(this,&#39;账号&#39;)">
+                        <input type="text" name="password" value="密码" onfocus="onf_text(this,&#39;密码&#39;,&#39;password&#39;)" onblur="onb_text(this,&#39;密码&#39;,&#39;text&#39;)">
+                    </div>
+                    <div class="sub_con">
+                        <input type="submit" id="sub" name="sub" value="">&nbsp;&nbsp;没有账号？&nbsp;<a href="http://thinkphp.myblog.me/register.php">注册一个</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>      <!-- 登陆框end -->
+    <!--body -->
+    <div class="ck">
+        <h6>发表留言 </h6>
+        <div id="ajax_con">
+            <form action="" method="post">
+                <input type="hidden" name="type" value="new"/>
+                网名:
+                <input type="text" name="username" /><br />
+                标题:
+                <input type="text" name="title" /> <br />
+                内容:<br />
+                <textarea name="contents" rows="20" cols="20"></textarea><br />
+                <input type="submit" value="发布" />
+            </form>
+        </div>
+    </div>
+
+    <!--body end-->
+
+    <!-- 版权信息start -->
+    <div id="footer">Copyright&nbsp;(C)&nbsp;2015&nbsp;&nbsp;官网主页：<a style="color:blue;font-weight:700" target="_blank" href="http://www.phpol.cn/">PHP教程</a>&nbsp;&nbsp;技术支持：
+        <!-- 版权信息end -->
+    </div>
+
+</body></html>
