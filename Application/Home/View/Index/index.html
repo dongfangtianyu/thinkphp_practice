@@ -54,9 +54,9 @@
 
     <div class="message_con"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="title">{$data.title}</td></tr><tr><td>
         <table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td class="content">{$data.contents}</td></tr><tr>
-            <td class="time"><span class="date">{$data.time}</span>
-                <span class="good_comment"><a href="javascript:setAjaxFunc('good','7') ">送鲜花(+{$data.top})</a></span>
-                <span class="good_comment"><a href="javascript:setAjaxFunc('bad','7') ">扔鸡蛋(+{$data.down})</a></span>
+            <td class="time"><span class="date">发表时间 {$data.time|date='Y-m-d H:i:s',###}</span>
+                <span class="good_comment"><a href="javascript:setAjaxFunc('good','7') ">送鲜花(+{$data.top|default='0'})</a></span>
+                <span class="good_comment"><a href="javascript:setAjaxFunc('bad','7') ">扔鸡蛋(+{$data.down|default='0'})</a></span>
             </td></tr>
         </tbody>
         </table></td></tr>
